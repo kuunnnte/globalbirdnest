@@ -1,7 +1,4 @@
 menu:
-  - name: Home
-    pageref: /
-    weight: 10
   - name: About
     pageref: "#about"
     weight: 20

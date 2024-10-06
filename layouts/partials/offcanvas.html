@@ -1,12 +1,21 @@
 <div id="menu-navbar" uk-offcanvas="overlay: true; flip: true; mode: reveal">
-  <div class="uk-offcanvas-bar uk-flex uk-flex-column accent-bg">
-      <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-          {{ $currentPage := . }} {{- range site.Menus.main }}
-          <li class="{{ if $currentPage.IsMenuCurrent "main" . }}uk-active{{ end }}">
-            <a href="{{ .URL }}" uk-scroll> {{ .Name }} </a>
-          </li>
-          {{- end }}
-      </ul>
-
+  <div class="uk-offcanvas-bar accent-bg uk-flex uk-flex-column">
+    <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+      <li>
+        <a href="#about"> About </a>
+      </li>
+      <li>
+        <a href="#market"> Market </a>
+      </li>
+      <li>
+        <a href="#values"> Values </a>
+      </li>
+      <li>
+        <a href="#process"> Process </a>
+      </li>
+      <li>
+        <a href="#products"> Products </a>
+      </li>
+    </ul>
   </div>
 </div>
