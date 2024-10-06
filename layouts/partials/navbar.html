@@ -1,0 +1,32 @@
+<div
+  class="uk-section uk-section-default uk-padding-remove-vertical"
+  uk-sticky="animation: uk-animation-slide-top; show-on-up: true; cls-active: uk-box-shadow-medium;"
+>
+  <div class="uk-container">
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+      <div class="uk-navbar-left">
+        <div class="uk-navbar-item uk-padding-remove-horizontal">
+          <a class="uk-logo uk-width-small" title="Logo" href="/">
+            <img class="accent" src="./img/logo-GN.png" alt="Logo" />
+          </a>
+        </div>
+      </div>
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+          {{ range .Site.Data.navbar.menu }}
+          <li class="uk-visible@s">
+            <a class="accent" href="{{ .pageref }}" uk-scroll> {{ .name }} </a>
+          </li>
+          {{- end }}
+          <a
+            class="accent uk-navbar-item uk-hidden@s"
+            href="#menu-navbar"
+            uk-icon="icon: menu; ratio: 1.5;"
+            uk-toggle
+          >
+          </a>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>

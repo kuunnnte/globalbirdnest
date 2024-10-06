@@ -1,0 +1,35 @@
+<div class="uk-section uk-section-muted">
+  <div class="uk-container">
+    <div class="uk-text-center@s">
+      <h5
+        class="uk-text-muted uk-text-capitalize uk-margin-remove uk-grid-match"
+        data-uk-scrollspy="cls: uk-animation-slide-top-small;"
+      >
+        our Process
+      </h5>
+      <h2
+        class="uk-margin-small uk-text-capitalize uk-text-bold accent"
+        data-uk-scrollspy="cls: uk-animation-fade; delay: 250"
+      >
+        This is how we processed your swiftlet.
+      </h2>
+    </div>
+    <div
+      class="uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-medium-top"
+      uk-grid
+      uk-scrollspy="target: > div#process; cls: uk-animation-fade; delay: 500;"
+    >
+      {{ range .Site.Data.process.steps }}
+      <div id="process">
+        <img class="uk-border-rounded" src="./img/{{ .img }}" alt="" />
+        <h2
+          class="uk-text-capitalize uk-text-primary uk-text-bold uk-margin-remove-bottom uk-margin-medium-top"
+        >
+          {{ .name }}
+        </h2>
+        <p class="uk-margin-small-top">{{ .desc }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

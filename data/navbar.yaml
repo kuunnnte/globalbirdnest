@@ -1,0 +1,19 @@
+menu:
+  - name: Home
+    pageref: /
+    weight: 10
+  - name: About
+    pageref: "#about"
+    weight: 20
+  - name: Market
+    pageref: "#market"
+    weight: 30
+  - name: Values
+    pageref: "#values"
+    weight: 40
+  - name: Process
+    pageref: "#process"
+    weight: 50
+  - name: Products
+    pageref: "#products"
+    weight: 60

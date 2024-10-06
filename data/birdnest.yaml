@@ -1,0 +1,47 @@
+products:
+  - name: Bowl Nest
+    grade: Premium, Super and Standard
+    size: AAAAA, AAAA and AAA
+    color: White, Cream and Grey
+    img: bowl-nest.jpg
+  - name: Orange Bowl Nest
+    grade: Premium, Super and Standard
+    size: AAAAA, AAAA and AAA
+    color:
+    img: orange-bowl-nest.jpg
+  - name: Oval Nest
+    grade: Premium, Super and Standard
+    color: White, Orange/Yellow, Cream and Grey
+    img: oval-nest.jpg
+  - name: Triangle Nest
+    grade: Premium, Super and Standard
+    size:
+    color: White, Orange/Yellow, Cream and Grey
+    img: triangle-nest.jpg
+  - name: Flat Nest
+    grade: Premium, Super and Standard
+    size:
+    color: White, Orange/Yellow, Cream and Grey
+    img: flat-nest.jpg
+  - name: Flat Triangle Nest
+    grade: Premium, Super and Standard
+    color: White, Orange/Yellow, Cream and Grey
+    img: flat-triangle-nest.jpg
+  - name: Broken Nest
+    grade:
+    color:
+    img: broken-nest.jpg
+  - name: Feet Nest
+    grade:
+    size:
+    color:
+    img: feet-nest.jpg
+  - name: Cake Nest
+    grade:
+    size:
+    color:
+    img: cake-nest.jpg
+  - name: Mess Nest
+    grade:
+    color:
+    img: mess-nest.jpg

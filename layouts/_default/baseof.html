@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./svg/logo-1.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/marketing.css" />
+    <script type="text/javascript">
+      window.hasMobileFirstExtension = true;
+    </script>
+    <title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>
+  </head>
+  <body>
+    <style>
+      .accent {
+        color: #952628;
+      }
+      img.accent {
+        color: #6e1516;
+      }
+      .accent-bg {
+        background-color: #952628;
+      }
+      a.accent-bg:hover {
+        background-color: #6e1516;
+      }
+      .uk-border-rounded {
+        border-radius: 0.75em;
+      }
+    </style>
+    {{ block "main" . }} {{ end }}
+  </body>
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
+</html>
