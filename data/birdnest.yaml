@@ -11,6 +11,7 @@ products:
     img: orange-bowl-nest.jpg
   - name: Oval Nest
     grade: Premium, Super and Standard
+    size:
     color: White, Orange/Yellow, Cream and Grey
     img: oval-nest.jpg
   - name: Triangle Nest
@@ -25,10 +26,12 @@ products:
     img: flat-nest.jpg
   - name: Flat Triangle Nest
     grade: Premium, Super and Standard
+    size:
     color: White, Orange/Yellow, Cream and Grey
     img: flat-triangle-nest.jpg
   - name: Broken Nest
     grade:
+    size:
     color:
     img: broken-nest.jpg
   - name: Feet Nest
@@ -43,5 +46,6 @@ products:
     img: cake-nest.jpg
   - name: Mess Nest
     grade:
+    size:
     color:
     img: mess-nest.jpg

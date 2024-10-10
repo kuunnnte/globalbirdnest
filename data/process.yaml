@@ -1,19 +1,19 @@
 steps:
   - name: Sorting
-    img: 1.sorting.jpg
+    img: 1.sorting.png
     desc: The raw swiftlet nests are carefully sorted to remove large impurities and separate different quality levels.
   - name: Washing
-    img: 2.washing.jpg
+    img: 2.washing.png
     desc: The nests are soaked and gently washed to eliminate dirt and other contaminants without damaging the delicate structure.
   - name: Picking
-    img: 3.picking.jpg
+    img: 3.picking.png
     desc: Fine tweezers are used to manually pick out feathers and other small debris that remain after washing.
   - name: Quality Control
-    img: 4.qc.jpg
+    img: 4.qc.png
     desc: Each nest undergoes thorough inspection to ensure it meets the required standards of cleanliness and structure.
   - name: Grading
-    img: 5.grading.jpg
+    img: 5.grading.png
     desc: The nests are categorized into various grades based on size, color, texture, and purity.
   - name: Last Picking
-    img: 6.picking.jpg
+    img: 6.picking.png
     desc: A final round of manual picking is performed to ensure no small particles are left before packaging.
