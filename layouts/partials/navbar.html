@@ -6,8 +6,14 @@
     <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
       <div class="uk-navbar-left">
         <div class="uk-navbar-item uk-padding-remove-horizontal">
-          <a class="uk-logo uk-width-small" title="Logo" href="/">
-            <img class="accent" src="./img/logo-GN.png" alt="Logo" />
+          <a class="uk-width-small" title="Logo" href="/">
+            <img
+              width="auto"
+              height="1rem"
+              class="accent"
+              src="./img/logo-GN.png"
+              alt="Logo"
+            />
           </a>
         </div>
       </div>
@@ -18,7 +24,7 @@
             <a class="accent" href="{{ .pageref }}" uk-scroll> {{ .name }} </a>
           </li>
           {{- end }}
-          <div class="uk-navbar-item">
+          <div class="uk-navbar-item uk-visible@s">
             <a
               href="https://wa.me/6287829363656?text=Hello%2C%20I%20would%20like%20to%20ask%20you%20about%20swiftlet%20nest"
               class="uk-button uk-button-primary accent-bg uk-border-rounded uk-light uk-text-bold"
