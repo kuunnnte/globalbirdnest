@@ -1,18 +1,26 @@
 <div class="uk-section uk-section-default uk-section-small">
   <div class="uk-container uk-container-small">
-    <div class="uk-cover-container uk-height-large uk-text-center">
+    <div class="uk-height-large uk-text-center container">
       <iframe
-        width="560"
-        height="315"
         src="https://www.youtube.com/embed/WEniLlHDZ5M?si=WG2ksDyrV0Mvvr8m"
         title="YouTube video player"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
-        uk-video="autoplay: hover"
-        uk-cover
       ></iframe>
     </div>
   </div>
 </div>
+
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+  }
+</style>
